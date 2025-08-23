@@ -21,7 +21,7 @@
 - python3 1_generate_dga_data.py
 
 Check that dga_dataset_train.csv was created
-**Output:*** dga_dataset_train.csv created successfully.
+**Output:** dga_dataset_train.csv created successfully.
 
 ### Train AutoML Model
 - python3 2_run_automl.py
