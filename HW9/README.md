@@ -66,7 +66,7 @@ The goal of this lab is to develop an end-to-end Python application that integra
 
 
 
-##Usage:
+## Usage:
 ### Create and activate virtual environment
   - (inside project directory)
   - python3 -m venv venv
