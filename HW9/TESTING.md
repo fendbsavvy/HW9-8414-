@@ -20,26 +20,26 @@
 ### Generate Dataset
 - python3 1_generate_dga_data.py
 
-Check that dga_dataset_train.csv was created
-**Output:** dga_dataset_train.csv created successfully.
+- Check that dga_dataset_train.csv was created
+- **Output:** dga_dataset_train.csv created successfully.
 
 ### Train AutoML Model
 - python3 2_run_automl.py
-check that ./models/best_dga_model is created
-check for MOJO artifact 
+- check that ./models/best_dga_model is created
+- check for MOJO artifact 
 
 ### Verify SHAP Explanations
 - python3 3_explain_model.py
-Verify shap_summary.png and shap_force.png is generated
-Check for findings
--Findings prepared for playbook:
+- Verify shap_summary.png and shap_force.png is generated
+- Check for findings
+Findings prepared for playbook:
 {'domain': 'kq3v9z7j1x5f8g2h.info', 'prediction': 'dga', 'confidence': np.int64(100), 'entropy': np.float64(4.297079327540665), 'length': np.float64(21.0)}
 
 
 ### Generate Prescriptive Playbook
 - python3 4_generate_prescriptive_playbook.py
 
-Check from generated playbook
+- Check from generated playbook
 --- AI-Generated Playbook ---
 1. **Isolate:** Immediately block the domain `kq3v9z7j1x5f8g2h.info` at the firewall and DNS level.
 
